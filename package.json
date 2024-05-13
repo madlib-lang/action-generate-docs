@@ -1,0 +1,20 @@
+{
+  "name": "action-generate-docs",
+  "description": "Automatically generate documentation for Madlib projects",
+  "devDependencies": {
+    "@action-validator/cli": "^0.6.0",
+    "@action-validator/core": "^0.6.0",
+    "lint-staged": "^15.2.2",
+    "eslint": "8.56.0",
+    "husky": "9.0.1"
+  },
+  "version": "1.0.0",
+  "main": "action.yml",
+  "scripts": {
+    "test": "echo \"no tests\"",
+    "prepare": "husky"
+  },
+  "keywords": ["madlib", "publish", "action", "github", "gh-action", "release"],
+  "author": "madlib-lang",
+  "license": "MIT"
+}
